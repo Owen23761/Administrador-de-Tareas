@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar / Editar Tarea"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título"
+        android:background="#EEEEEE"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Categoría"
+        android:layout_marginTop="12dp"
+        android:background="#EEEEEE"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#EEEEEE"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#1976D2"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:visibility="gone" />
+
+</LinearLayout>
